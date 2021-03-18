@@ -6,6 +6,7 @@ node {
   bat "./gradlew.bat clean test"
  }
  stage('Deploy') {
+  bat "heroku --help"
   bat "git push https://git.heroku.com/pacific-meadow-33975.git master"
  }
 }
