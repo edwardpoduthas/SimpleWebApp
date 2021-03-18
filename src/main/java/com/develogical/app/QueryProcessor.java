@@ -15,6 +15,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("boris")) {
             return "Prime minister of UK";
         }
+        if (query.toLowerCase().contains("edward")) {
+            return "Studies at oxford";
+        }
         return "";
     }
 }
