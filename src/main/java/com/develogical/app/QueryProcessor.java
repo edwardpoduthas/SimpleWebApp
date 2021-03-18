@@ -12,6 +12,9 @@ public class QueryProcessor {
                     "physicist, astronomer, theologian, and author (described in his time as a natural philosopher) " +
                     "who is widely recognised as one of the most influential scientists of all time and as a key figure in the scientific revolution.";
         }
+        if (query.toLowerCase().contains("boris")) {
+            return "Prime minister of UK";
+        }
         return "";
     }
 }
